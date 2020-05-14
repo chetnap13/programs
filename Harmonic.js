@@ -9,8 +9,9 @@ rl.question('enter the number\n',(num)=>
 {
     for(var i=1;i<=num;i++)
     {
-        sum=sum+(1/i);
-        console.log(sum);
+        sum=sum+(1.0/i);
+       
     }
+    console.log(sum);
     
 });
